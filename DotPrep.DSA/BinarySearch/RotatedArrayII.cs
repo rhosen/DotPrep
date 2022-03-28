@@ -1,8 +1,11 @@
 ﻿namespace DotPrep.DSA.BinarySearch
 {
+
+    // https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
+    // https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
+
     public class RotatedArrayII
     {
-
         public bool Search(int[] nums, int target)
         {
             var n = nums.Length;
@@ -33,8 +36,8 @@
                     // mid and end element could be same
                     // but there could be a larger element between them
                     if (end > start && nums[end - 1] > nums[end]) return end;
-                    // this is the minimum number but it's not the first minimum number
-                    // so we keep looking for first minimum number
+                    // this might be the minimum number but it's not the first occurance
+                    // so we keep looking for first minimum occurance
                     end--;
                 }
                 // the element at mid is the minimum number untill now
