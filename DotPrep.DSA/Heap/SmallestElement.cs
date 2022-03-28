@@ -6,11 +6,11 @@
     {
         public int KthSmallest(int[][] matrix, int k)
         {
-            var maxHeap = new PriorityQueue<int,int>(new ElementComparer());
+            var maxHeap = new PriorityQueue<int, int>(new ElementComparer());
 
-            for(int i = 0; i < matrix.Length; i++)
+            for (int i = 0; i < matrix.Length; i++)
             {
-                for(int j = 0; j < matrix[i].Length; j++)
+                for (int j = 0; j < matrix[i].Length; j++)
                 {
                     maxHeap.Enqueue(matrix[i][j], matrix[i][j]);
                     if (maxHeap.Count > k) maxHeap.Dequeue();
