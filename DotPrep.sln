@@ -9,9 +9,33 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DSAHacks", "DSAHacks", "{44CD2451-9773-4AF1-85A3-85638A11EAF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotPrep.DSA", "DotPrep.DSA\DotPrep.DSA.csproj", "{585723C2-3C9D-4B72-AD06-8EA34912BA38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotPrep.DSATest", "DotPrep.DSATest\DotPrep.DSATest.csproj", "{71FE9BE1-14C8-4C8D-AE74-577D3F4C7C36}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{585723C2-3C9D-4B72-AD06-8EA34912BA38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{585723C2-3C9D-4B72-AD06-8EA34912BA38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{585723C2-3C9D-4B72-AD06-8EA34912BA38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{585723C2-3C9D-4B72-AD06-8EA34912BA38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71FE9BE1-14C8-4C8D-AE74-577D3F4C7C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71FE9BE1-14C8-4C8D-AE74-577D3F4C7C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71FE9BE1-14C8-4C8D-AE74-577D3F4C7C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71FE9BE1-14C8-4C8D-AE74-577D3F4C7C36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{585723C2-3C9D-4B72-AD06-8EA34912BA38} = {44CD2451-9773-4AF1-85A3-85638A11EAF7}
+		{71FE9BE1-14C8-4C8D-AE74-577D3F4C7C36} = {44CD2451-9773-4AF1-85A3-85638A11EAF7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5EFD920D-B88B-4528-AB5F-6CA60F5BFB7E}
