@@ -4,7 +4,7 @@
     // https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
     // https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
 
-    public class RotatedArrayII
+    public class SearchInRotatedSortedArrayII
     {
         public bool Search(int[] nums, int target)
         {

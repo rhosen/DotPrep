@@ -3,13 +3,13 @@ using Xunit;
 
 namespace DotPrep.DSATest.BinarySearch
 {
-    public class RotatedArrayIITest
+    public class SearchInRotatedSortedArrayIITest
     {
-        RotatedArrayII _rotatedArrayII;
+        SearchInRotatedSortedArrayII _rotatedArrayII;
 
-        public RotatedArrayIITest()
+        public SearchInRotatedSortedArrayIITest()
         {
-            _rotatedArrayII = new RotatedArrayII();
+            _rotatedArrayII = new SearchInRotatedSortedArrayII();
         }
 
         [Fact]
